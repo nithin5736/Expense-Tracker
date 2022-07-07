@@ -1,0 +1,33 @@
+React basics & components-->
+    npx create-react-app folder
+    first component
+    Adding CSS
+    Outputtng dynamic data
+    props concept
+    splitting single component into multiple components
+    wrapper components("children props")
+
+React state & handling events-->
+    listening to events
+    useState()
+    every component has its own seperate state(each ExpenseItem in Expenses has its own seperate state)
+    Adding form inputs
+    listening to user inputs & obtain user entered value
+    using multiple states for different inputs
+    using a single state instead of multiple inputs("use concept of object")
+    updating state depends on previous state
+    Handling form submission
+    Two-way binding(listening to user input to gather value & reset the input values)
+    children-to-parent commuication or passing data(by passing functions)
+    lifting the state up
+    ExpenseFilter-->1. gather input(listening to input) ,2. pass data to parent,3. define a state for the year
+    Controlled vs Uncontrolled components(ExpensesFilter is controlled component because the current and changed values are handled in parent component)
+    state vs stateless components(ExpenseItem is stateless component)
+    
+Rendering lists & conditional content-->
+    Rendering lists of data(using map())
+    using stateful lists
+    key props(unique key to identify each individual)
+    conditional content(ternery operator, &&, storing JSX code in a variable)
+    conditional return statements
+    Adding dynamic styles

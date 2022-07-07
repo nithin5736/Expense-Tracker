@@ -1,0 +1,3 @@
+React is javascript library used to build complex user interfaces in a simpler way.
+React is all about components, components are basically javascript functions returns JSX code.
+Components are written in declarative way has a desired target state but regular js code is written in imperative way.
